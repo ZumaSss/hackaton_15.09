@@ -1,0 +1,23 @@
+{
+  "name": "hackaton_15.09",
+  "version": "1.0.0",
+  "description": "school21 15.09-17.09 client-server web-resource",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1459.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^2.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
